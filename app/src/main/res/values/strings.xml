@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">laws</string>
+
+
+    <!-- plants layout -->
+    <string name="plants_title">Plants</string>
+    <string name="tomato_info">some information about tomato</string>
+    <string name="potato_info">some information about potato</string>
+    <string name="zone_out">Outdoor</string>
+    <string name="zone_in">Indoor</string>
+
+    <!-- planted & harvested plants layout -->
+    <string name="remove_btn">Remove</string>
+    <string name="harvest_btn">Harvest</string>
+    <string name="water_btn">Water</string>
+    <string name="planted_fragment">Planted</string>
+    <string name="harvested_fragment">Harvested</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+    <!-- sign up layout -->
+    <string name="username_Text">Username</string>
+    <string name="email_Text">E-mail</string>
+    <string name="password_Text">Password</string>
+    <string name="cnfpass_Text">Confirm Password</string>
+    <string name="bDate_Text">Birth Date</string>
+    <string name="phnNum_Text">Phone number</string>
+    <string name="signup_Button">Sign up</string>
+    <string name="editinfo_button">Submit</string>
+    <string name="login_Button">login</string>
+    <string name="gotoregister_button">No account yet? Create one</string>
+    <string name="SignuptoLogin">Already have an account? Log in</string>
+    <string name="emptyfield_error">Please enter your details!</string>
+    <string name="passConfirmation_error">Passwords don\'t match!</string>
+
+
+    <!-- plants list -->
+    <string name="tomato">tomato</string>
+    <string name="potato">potato</string>
+
+
+    <!-- plant info -->
+    <string name="plant_name">plant name</string>
+    <string name="add_to_my_garden_btn">Add to garden</string>
+    <string name="title_activity_community">CommunityActivity</string>
+
+    <!--navigation bar-->
+    <string name="nav_community">Community</string>
+    <string name="nav_garden">Garden</string>
+    <string name="nav_plants">Plants</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_logout">Logout</string>
+    <string name="user_name">spot@catchat.com</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+
+
+    <!-- Community layouts list -->
+    <string name="allposts_fragment">All</string>
+    <string name="problem_fragment">Problem</string>
+    <string name="recommend_fragment">Recommend</string>
+    <string name="question_fragment">Question</string>
+    <string name="firstname_text">firstname_Text</string>
+    <string name="lastname_text">lastname_Text</string>
+    <string name="save">save</string>
+    <string name="delete">delete</string>
+
+</resources>

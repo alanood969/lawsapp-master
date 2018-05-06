@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/planted_plants_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#81C784">
+
+        <ImageView
+            android:id="@+id/planted_imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+           />
+
+
+        <Button
+            android:id="@+id/water_button"
+            android:layout_width="63dp"
+            android:layout_height="37dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/water_btn"
+
+            android:onClick="waterPlant"
+            android:background="#1B5E20"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/harvest_button"
+            android:layout_width="63dp"
+            android:layout_height="37dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/harvest_btn"
+            android:onClick="harvestPlant"
+            android:background="#1B5E20"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/remove_button"
+            android:layout_width="63dp"
+            android:layout_height="37dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/remove_btn"
+            android:onClick="removePlant"
+            android:background="#1B5E20"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
